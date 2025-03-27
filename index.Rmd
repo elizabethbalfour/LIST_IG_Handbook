@@ -1,0 +1,55 @@
+--- 
+title: "LIST IG Handbook"
+author: "The LIST Information Governance Cross-Team Group"
+date: "`r Sys.Date()`"
+site: "bookdown::bookdown_site"
+output:
+  bookdown::gitbook: default
+documentclass: book
+bibliography: ["book.bib", "packages.bib"]
+biblio-style: apalike
+link-citations: yes
+---
+
+# About
+
+## This Handbook
+
+This handbook was created by the LIST IG Cross-Team Group to support the wider LIST team around Information Governance. 
+
+It is intended to be used as an initial training document [**to sit alongside the mandatory PHS Information Governance Training**](#training), and also as a helpful reference guide for LIST team members for any queries they may have around IG prior to getting in touch with us. 
+
+However, _we would still encourage LIST team members to reach out to Group members with any questions that have not been answered here_.
+
+## The LIST IG Cross-Team Group
+
+The LIST IG Group are a cross-team group of LIST analysts who help support the wider team with any queries relating to Information Governance. 
+
+The group meets regularly to discuss requests and queries, provide advice and support to fellow analysts and act as a go-between for LIST and PHS Data Protection.  
+
+To contact the LIST IG Group with a query, you can either: 
+
+1. Make a post in the [LIST IG teams channel](https://teams.microsoft.com/l/channel/19%3A9a435ecaaa6c4ca8b6a8313223116114%40thread.tacv2/Information%20Governance?groupId=3e609872-2e51-443b-a14c-e1216a3636d0&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a), or
+
+1. Get in touch with individual members of the IG Group directly. You can find the list of current Group members in the sidebar of the LIST IG teams channel.
+
+_If you're interested in joining the Group, or learning more about what that would entail, we would encourage you to get in touch with us. New members are always welcome!_
+
+## Mandatory PHS Training {#training}
+
+### Training Log
+
+You can view your IG training compliance with the [LIST IG Training Log](https://scottish.sharepoint.com/:x:/r/sites/PHS-LIST/_layouts/15/Doc.aspx?sourcedoc=%7BF39C55E2-B0CB-45AC-86DD-2554D4816407%7D&file=LIST%20IG%20Training.xlsx&action=default&mobileredirect=true). **Once you have completed the relevant courses, please update this log with your dates of completion**. 
+
+### Training Courses
+
+The following training courses are mandatory and **must have been completed within the last 2 years**:  
+
+1. NSS Information Governance in Action (PHS) - Turas Module 
+
+1. [MRC: Research, GDPR and Confidentiality](https://byglearning.co.uk/mrcrsc-lms/course/index.php?categoryid=1)
+
+The LIST IG team will routinely update the training that LIST staff have completed and will remind staff to ensure this is up-to-date. 
+
+Further details can be found on [The Spark](http://spark.publichealthscotland.org/corporate-guidance/information-governance/data-protection/training-and-guidance/) 
+
