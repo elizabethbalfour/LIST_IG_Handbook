@@ -1,0 +1,1083 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={LIST IG Handbook},
+  pdfauthor={The LIST Information Governance Cross-Team Group},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{LIST IG Handbook}
+\author{The LIST Information Governance Cross-Team Group}
+\date{2025-03-27}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{about}{%
+\chapter{About}\label{about}}
+
+\hypertarget{this-handbook}{%
+\section{This Handbook}\label{this-handbook}}
+
+This handbook was created by the LIST IG Cross-Team Group to support the wider LIST team around Information Governance.
+
+It is intended to be used as an initial training document \protect\hyperlink{training}{\textbf{to sit alongside the mandatory PHS Information Governance Training}}, and also as a helpful reference guide for LIST team members for any queries they may have around IG prior to getting in touch with us.
+
+However, \emph{we would still encourage LIST team members to reach out to Group members with any questions that have not been answered here}.
+
+\hypertarget{the-list-ig-cross-team-group}{%
+\section{The LIST IG Cross-Team Group}\label{the-list-ig-cross-team-group}}
+
+The LIST IG Group are a cross-team group of LIST analysts who help support the wider team with any queries relating to Information Governance.
+
+The group meets regularly to discuss requests and queries, provide advice and support to fellow analysts and act as a go-between for LIST and PHS Data Protection.
+
+To contact the LIST IG Group with a query, you can either:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Make a post in the \href{https://teams.microsoft.com/l/channel/19\%3A9a435ecaaa6c4ca8b6a8313223116114\%40thread.tacv2/Information\%20Governance?groupId=3e609872-2e51-443b-a14c-e1216a3636d0\&tenantId=10efe0bd-a030-4bca-809c-b5e6745e499a}{LIST IG teams channel}, or
+\item
+  Get in touch with individual members of the IG Group directly. You can find the list of current Group members in the sidebar of the LIST IG teams channel.
+\end{enumerate}
+
+\emph{If you're interested in joining the Group, or learning more about what that would entail, we would encourage you to get in touch with us. New members are always welcome!}
+
+\hypertarget{training}{%
+\section{Mandatory PHS Training}\label{training}}
+
+\hypertarget{training-log}{%
+\subsection{Training Log}\label{training-log}}
+
+You can view your IG training compliance with the \href{https://scottish.sharepoint.com/:x:/r/sites/PHS-LIST/_layouts/15/Doc.aspx?sourcedoc=\%7BF39C55E2-B0CB-45AC-86DD-2554D4816407\%7D\&file=LIST\%20IG\%20Training.xlsx\&action=default\&mobileredirect=true}{LIST IG Training Log}. \textbf{Once you have completed the relevant courses, please update this log with your dates of completion}.
+
+\hypertarget{training-courses}{%
+\subsection{Training Courses}\label{training-courses}}
+
+The following training courses are mandatory and \textbf{must have been completed within the last 2 years}:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  NSS Information Governance in Action (PHS) - Turas Module
+\item
+  \href{https://byglearning.co.uk/mrcrsc-lms/course/index.php?categoryid=1}{MRC: Research, GDPR and Confidentiality}
+\end{enumerate}
+
+The LIST IG team will routinely update the training that LIST staff have completed and will remind staff to ensure this is up-to-date.
+
+Further details can be found on \href{http://spark.publichealthscotland.org/corporate-guidance/information-governance/data-protection/training-and-guidance/}{The Spark}
+
+\hypertarget{list-ig-approvals-framework}{%
+\chapter{LIST IG Approvals Framework}\label{list-ig-approvals-framework}}
+
+\hypertarget{before-starting-a-project}{%
+\section{Before Starting a Project}\label{before-starting-a-project}}
+
+Before starting any project, there are a number of questions we should ask ourselves. We can then consult the LIST IG Approvals Framework to determine the way forward.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Who is my primary customer/contact?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Determining your primary customer or contact for your project will be done during your initial meeting with the customer e.g.~GP cluster or practice quality lead; HSCP service manager.
+  \end{itemize}
+\item
+  Why are they asking for this data/information?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Define clear aim(s) and objective(s) of the project in collaboration with your customer.
+  \end{itemize}
+\item
+  Where is the data coming from?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Map desired outcomes and variables to available data sources (local and/or national).
+  \end{itemize}
+\item
+  Who owns that data?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Identify data owner(s) and whether you need to gain permission to access that data.
+  \end{itemize}
+\item
+  How do I access the data required?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    National data: Public Health Scotland
+  \item
+    GP data: Cluster or Practice Quality Lead\\
+  \item
+    Local data: Please discuss this with your local contacts
+  \item
+    Other: Third sector or partner organisations
+  \end{itemize}
+\item
+  Am I using the minimum amount of variables/information required to do this project?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Review variables / information required by your customer.
+  \item
+    \emph{Data Minimisation is a key principle of Data Protection Law, meaning personal data should only be used when necessary}
+  \end{itemize}
+\item
+  Do I require patient-identifiable data?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If you do require patient-identifiable data for your analysis, the best practice is to produce aggregate data outputs for the customer and use this to focus discussion on further details.
+  \end{itemize}
+\item
+  Who is getting access to the data once I am finished with my analysis?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Identify who will have access to the data and what level of information / data is therefore appropriate to present in your outputs e.g.~aggregated vs.~person identifiable data.\\
+  \item
+    Ask yourself ``Do they have a genuine need to see all of the data I intend to give them?''
+  \end{itemize}
+\item
+  Is there a way to provide this data that would not require disclosure of personally identifiable information?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Consider ways in which you could present the data to your customer e.g.~by aggregating the data by cluster, locality or GP practice.
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{about-the-framework}{%
+\section{About The Framework}\label{about-the-framework}}
+
+The LIST IG Approvals Framework was implemented in January 2024 in order to outline who LISTs main customers are and the level of data we can provide to them. This depends on:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Who the customer is
+
+  \begin{itemize}
+  \item
+    \emph{NHS Board customer}
+  \item
+    \emph{Local Authority customer}
+  \item
+    \emph{Cluster Quality Lead (CQL)}
+  \item
+    \emph{GP Practice Staff (who are not CQLs)}
+  \end{itemize}
+\item
+  The level of data required
+
+  \begin{itemize}
+  \item
+    \emph{Level 0: Published}
+  \item
+    \emph{Level 1: Aggregated Non Confidential / Publishable}
+  \item
+    \emph{Level 2: Potentially Disclosive / Management Information}
+  \item
+    \emph{Level 3: Patient Level}
+  \item
+    \emph{Non-PHS, Local data sources}
+  \end{itemize}
+\item
+  Whether the data required falls into the customers own geographic area of responsibility
+\end{enumerate}
+
+The framework is intended to be a useful tool for analysts to determine appropriate outputs for our customers. It can be found on the \href{https://scottish.sharepoint.com/:x:/r/sites/PHS-LIST/_layouts/15/Doc.aspx?sourcedoc=\%7B4675F488-0BED-48E2-967F-4D006D7BA596\%7D\&file=LIST\%20IG\%20Approvals\%20Framework.xlsx\&action=default\&mobileredirect=true}{LIST SharePoint Page}
+
+\hypertarget{our-customers}{%
+\section{Our Customers}\label{our-customers}}
+
+LIST support two main workstreams: Health \& Social Care Integration and Primary Care. Under the LIST IG Framework, there are four categories of customers LIST can send PHS data directly to:
+
+\begin{itemize}
+\item
+  NHS staff
+\item
+  Local Authority staff -- (within a Health and Social Care Partnership)
+\item
+  Cluster Quality Leads (CQLs)
+\item
+  GP Practice Staff (who are not CQLs)
+\end{itemize}
+
+\emph{\textbf{What about other customer types?}}
+
+\begin{itemize}
+\item
+  \emph{ADP/CPP customers}
+
+  LIST's ``direct customer'' should be either a local authority or NHS employee who is a member of the ADP / CPP. LIST are not permitted to share data direct with ADP/CPP members from organisations outwith of NHS Board / Local Authority Staff. These organisations are trusted partner organisations of PHS where we already have an approved mechanism for sharing data with, other organisations included in the ADP/CPPs may not have such mechanisms in place.
+\item
+  \emph{Universities}
+
+  LIST do not support universities directly. LIST's only interaction with university contacts should be via one of the 4 main customer types. For example, a HSCP may have commissioned a university to carry out analysis on their behalf. LIST only provide requested data direct to one of the 4 main customer types, never direct to the university contact. It is then for LIST's customer to then share this data, ensuring they follow both PHS and local IG protocols as required.
+\item
+  \emph{Third Sector}
+
+  LIST do not support third sector organisations directly. LIST support third sector organisations on behalf of the HSCP. LIST would provide data direct to HSCP contact(s), then the HSCP contact would be responsible for sharing this data with the third sector, ensuring they follow both PHS and local IG protocols as required.
+\end{itemize}
+
+\emph{\textbf{What about data which isn't held by PHS?}}
+
+When we are requested to work with customers using their own local data sources, we must adhere to the local IG processes they have in place.
+
+\hypertarget{comparator-data}{%
+\section{Comparator Data}\label{comparator-data}}
+
+It is common for customers to request their own data in the context of comparator data from other areas, to be able to compare their performance relative to others. Below are the key considerations for LIST to determine the data they can / can't provide without further approvals in place.
+
+\emph{\textbf{Who is the customer and what information does their role entitle them to?}}
+
+Refer to the LIST IG framework for details on the data that different customer types are entitled to with/ without approvals.
+
+LIST can provide customers with data for their own geographic area of responsibility. We should not provide any data to a customer that means they can gain intelligence about other areas or organisations that are outwith their responsibility, unless we:
+
+\begin{itemize}
+\item
+  Obtain senior approval from the area
+\item
+  Use data available in the public domain -- no approvals are required.
+\end{itemize}
+
+\emph{\textbf{What data can LIST provide if no further approvals are obtained}}
+
+LIST can provide data for the customer's \emph{own geographic area of remit}.
+
+LIST cannot show/name other areas in the output, this includes LIST not being permitted to show the data with anonymised names. As these areas are outwith the customers area of remit, the customer is not entitled to this data without approvals in place.
+
+LIST can provide some limited comparator data to allow the customer to see how their area compares to others. LIST can provide:
+
+\begin{itemize}
+\item
+  Highest count/rate for the area
+\item
+  Lowest count/rate for the area
+\item
+  Average count/rate
+\item
+  The relative position/rank of the customer's area compared to others.
+\end{itemize}
+
+\emph{Example 1: GP Cluster requests data to compare their own cluster against other clusters in the NHS Board or HSCP}
+
+\includegraphics[width=1\linewidth]{imgs/comparator-ex1}
+
+Note: LIST must ensure that there are a sufficient number of comparators that no intelligence can be gained about others.
+
+\emph{Example 2: NHS Board containing 2 HSCPs: HSCP A and HSCP B.}
+
+A local authority customer from HSCP A requests comparative data for their HSCP's relative position with their NHS Board. It is not possible to provide the maximum/minimum/average/ranking data as there are only 2 HSCPs in the NHS Board.
+
+Providing this information would be providing data for HSCP B. The local authority customer is not entitled to this data, approvals are required from HSCP B.
+
+\hypertarget{unpublished-data}{%
+\section{Unpublished Data}\label{unpublished-data}}
+
+Sometimes our customers may ask for the release of unpublished data for all HSCPs / NHS Boards in Scotland, and not just their own. The default approach will be for LIST to \emph{provide the HSCP / HB with data for their own area only}.
+
+For any comparative data, \textbf{we will not provide any named HSCPs / NHS Boards outside their own area}. Instead, we can provide:
+
+\begin{itemize}
+\item
+  The Scotland average
+\item
+  Their own HSCP / HB's position when ranked against the others
+
+  \begin{itemize}
+  \tightlist
+  \item
+    e.g.~their HSCP rate is ranked X / 31 (and also provide any required caveats re how feasible it is to compare areas in this way)
+  \end{itemize}
+\end{itemize}
+
+\emph{What if the customer gets in touch to request that they need an output for all HSCPS / NHS Boards outside their own area?}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  LIST will seek permission from the PHS national team that we can release this data. LIST can only provide this output if we have expressed permission from the national team in PHS that this data can be provided.
+\item
+  The output will be released as Management Information. Please ensure this is clearly noted on the output using the standard text.
+\item
+  LIST need to inform the PHS national team of the following advice from the Statistical Governance team:
+\end{enumerate}
+
+``The Statistical Governance Team have advised that from the Information Request Protocol, \emph{if this is the first time the information has been released, it should be sent for preview 48 hours before it is released to the customer as follows:}
+
+\begin{itemize}
+\item
+  \emph{Analysis relating to a specific health board: email the PHS preview mailbox and request that the IR is sent to the Chief Executive and Communications Manager at that specific board}
+\item
+  \emph{Analysis at national level: email the IR to your policy contact at the Scottish Government. If you are unsure of who to send it to, see the Contact Details section for a generic mailbox to use.''}
+\end{itemize}
+
+\hypertarget{obtaining-senior-approval}{%
+\section{Obtaining Senior Approval}\label{obtaining-senior-approval}}
+
+While our customers are entitled to receive data within their own geographic area of responsibility, for data outwith their geographic area of responsibility senior approval from the relevant area is required.
+
+These are the areas of responsibilities of LIST's different customer types:
+
+\begin{itemize}
+\item
+  NHS Board customer - responsibility within their own NHS Board
+\item
+  Local Authority customer - responsibility within their own LA / HSCP
+\item
+  Cluster Quality Lead (CQL) - responsibility for their own GP cluster
+\item
+  GP Practice staff - responsibility for their own GP practice
+\end{itemize}
+
+The approvals required for the different customer types can be summarised below:
+
+\includegraphics[width=1\linewidth]{imgs/seniorapproval-table}
+
+Note this relates to levels 1 and 2 of the LIST IG Approvals Framework for data not available in the public domain. No approvals are required for data available in the public domain (level 0 on the LIST IG framework)
+
+\emph{How is the Senior Approval obtained?}
+
+Obtain written approval from the senior person within the HSCP / NHS Board via email, detailing:
+
+\begin{itemize}
+\item
+  The data being shared
+\item
+  The purpose / the specific piece of work
+\item
+  Who the data is being shared with
+\end{itemize}
+
+\textbf{Examples}
+
+\emph{Example 1: HSCP}
+
+\begin{itemize}
+\item
+  LIST asked to provide new aggregated analysis (not available in public domain) of PHS held data, to allow the HSCPs to compare against each other
+\item
+  Senior Approval Obtained: Email agreement obtained by LIST from Service Managers in both HSCPs that they were happy for LIST to go ahead with this work comparing the HSCPs with each other
+\end{itemize}
+
+\emph{Example 2: within same NHS Board}
+
+\begin{itemize}
+\item
+  One CQL from cluster A in NHS Board asks LIST to send them all GP Cluster Profiles for the clusters in the NHS Board
+\item
+  Senior Approval Obtained: LIST obtained email agreement from Head of Primary Care within the NHS Board that they authorise the sharing of GP cluster profiles within the NHS Board to be shared with all clusters
+\item
+  Alternatively senior approval could be obtained from all CQLs, however obtaining this approval from multiple CQLs would be time consuming, in instance it would be quicker/easier to obtain the approval from one senior contact within the NHS Board
+\end{itemize}
+
+\emph{Example 3: different NHS Boards}
+
+\begin{itemize}
+\item
+  NHS Board A and NHS Board B would like to do a new piece collaborative piece of work comparing a range of indicators using aggregated PHS health data (new analysis, data not available in the public domain)
+\item
+  Senior Approval Obtained: LIST obtain approval from Caldicott Guardian from NHS Board A and from NHS Board B that they agree to carry out this work
+\item
+  LIST colleagues would obtain the senior approval from the NHS Board they cover
+\end{itemize}
+
+\emph{Example 4: GP Clusters}
+
+\begin{itemize}
+\item
+  CQLs from Cluster A and Cluster B (both in same NHS Board) ask LIST to create new analysis comparing both clusters for the range of indicators in the GP Cluster Profiles
+\item
+  Senior Approval Obtained: LIST obtain email agreement from the CQL from both clusters A and B that they are happy for LIST to do this work
+\end{itemize}
+
+\emph{Example 5: GP Practices}
+
+\begin{itemize}
+\item
+  PQL from Practice A asks LIST to create new analysis comparing with their neighbouring practice (Practice B) for the range of indicators in the GP Practice Profiles
+\item
+  Both practices within the same cluster / HSCP / NHS Board
+\item
+  CQL is not involved in this request
+\item
+  Senior Approval Obtained: LIST obtain email agreement from the PQL from both practices A and B that they are happy for LIST to do this work
+\end{itemize}
+
+\hypertarget{collecting-data-locally}{%
+\section{Collecting Data Locally}\label{collecting-data-locally}}
+
+LIST are often asked to support surveys, particularly through the use of MS Forms, to collect data for further analysis. There is a Survey Guidance section of the PHS Data Protection Handbook which states that MS Forms is not approved for collecting personal data and should be avoided.
+
+At present, the approved software is LimeSurvey and there are details in the handbook on how to get a login, and when it might be necessary to get in touch with the Data Protection team.
+
+However, this guidance specifically relates to PHS work. In the instance where we are asked by local partners to assist with a survey using other software such as MS Forms for local data collection, and their local IG department is happy to approve its use for that particular project, then we can support this work.
+
+We should still remain vigilant regarding the collection of personal data, even in the instance where the local partners are happy to do so. Here are our top tips for surveys:
+
+\begin{itemize}
+\item
+  Only collect the minimum amount of data required for the project
+\item
+  Avoid, wherever possible, free text fields, to eliminate the possibility of collecting unnecessary personal data
+\item
+  Prior to sending out the survey, check the settings to ensure the form won't automatically collect personal data in the background, such as the e-mail address of the responder
+\item
+  Limit the number of people who have access to the dataset where the survey responses are collected
+\end{itemize}
+
+\hypertarget{data-release-and-linkage-forms}{%
+\chapter{Data Release and Linkage Forms}\label{data-release-and-linkage-forms}}
+
+\hypertarget{when-is-a-drl-required}{%
+\section{When is a DRL required?}\label{when-is-a-drl-required}}
+
+A DRL form is required for one/both of the following scenarios:
+
+\begin{itemize}
+\item
+  Release of patient level data from PHS dataset(s)
+\item
+  Data linkage, involving at least one PHS dataset
+\end{itemize}
+
+\emph{If in doubt about whether a DRL form is required, please get in touch with the LIST IG Group who can advise.}
+
+\hypertarget{what-is-the-process-for-a-drl-form-being-approved}{%
+\section{What is the process for a DRL form being approved?}\label{what-is-the-process-for-a-drl-form-being-approved}}
+
+LIST staff should take the following steps for a DRL form to be approved:
+
+\textbf{Step 1: Complete the sections of the form that LIST can complete}
+
+\begin{itemize}
+\item
+  Download a copy of the DRL Form from the \href{https://spark.publichealthscotland.org/corporate-guidance/information-governance/data-protection/data-protection-handbook/data-release-and-linkage-form/}{Data Protection Handbook on the Spark} to ensure you have the most recent template There is a copy of the DRL Form also available on the LIST IG SharePoint page (please ensure you make edits to your own copy and not the template on SharePoint)
+\item
+  LIST should complete all section of the form apart from sections 2 and 3. Section 6 will involve working with the local customer to agree the details
+\item
+  LIST can add the details they know for section 2 and 3 e.g.~names, job titles, but these sections will be for the local contacts to complete \protect\hyperlink{drlcompletion}{(see here for how to complete these sections)}.
+\end{itemize}
+
+\textbf{Step 2: Send to LIST IG Group for review}
+
+\begin{itemize}
+\item
+  Send form to a member of the LIST IG Group and ask for it to be reviewed
+\item
+  LIST IG Group will get back to you and advise of any required changes to the form ahead of obtaining local signatures
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Note: LIST IG Group are not providing an approval -- we are carrying out a review and recommending changes based on our experience. Approval for the work to go ahead is provided from the PHS Data Protection Team
+  \end{itemize}
+\end{itemize}
+
+\textbf{Step 3: Obtain local signatures}
+
+\begin{itemize}
+\item
+  Make any required updates to the form as advised and then email the form to the applicant to complete section 2
+\item
+  Once the updated form has been returned, email the form to the local data controller representative(s) to complete section 3
+\item
+  Local data controller(s) will then return the form to LIST, form is now complete and ready to be submitted for approval
+\end{itemize}
+
+\textbf{Step 4: Send the form to the Data Protection Team for approval}
+
+\begin{itemize}
+\item
+  Email the completed form to Data Protection team mailbox \textbf{\href{mailto:phs.dataprotection@phs.scot}{\nolinkurl{phs.dataprotection@phs.scot}}}
+\item
+  Include LIST in the subject heading
+\item
+  Mention in the email that the LIST IG Group has reviewed the form
+\end{itemize}
+
+\textbf{Step 5: Data Protection Team response}
+
+\begin{itemize}
+\item
+  The Data Protection team may suggest changes to the form, update if required and then re-visit any of the steps above if advised to (e.g.~depending on the nature of the changes suggested, it may require updated local signatures)
+\item
+  Re-submit to DP team if required
+\end{itemize}
+
+\textbf{Step 6: Form Approved}
+
+\begin{itemize}
+\item
+  The Data Protection team will email that they have approved the DRL form
+\item
+  Save email of approval
+\item
+  \emph{Now that the PHS Data Protection Team have approved the form, the work can be carried out}
+\end{itemize}
+
+\hypertarget{drlcompletion}{%
+\section{How do I complete a DRL form?}\label{drlcompletion}}
+
+\textbf{Section 1 -- What is this application for?}
+
+In this section, you state whether the data request is for Local or National population data.
+
+\begin{itemize}
+\item
+  Local population data is for a single board/partnership/LA area or single independent contractor (e.g.~GP). \textbf{LIST projects will use this option}.
+\item
+  If the data required is for multiple areas, the request is for National population data (LIST will almost always be using Local population data)
+\end{itemize}
+
+\textbf{Section 2 -- Applicant/user details}
+
+This section should be completed by the main customer for the data request. This person should:
+
+\begin{itemize}
+\item
+  Be one of our partner organisation customers:
+
+  \begin{itemize}
+  \item
+    NHS Board employee
+  \item
+    Local Authority employee
+  \item
+    Cluster Quality Lead (CQL)
+  \item
+    GP Practice Staff (not a CQL)
+  \end{itemize}
+\item
+  Have a job title which gives them the geographic area of responsibility over the data requested -- for example, a Service Manager within an HSCP requesting data for their own HSCP, or a GP Practice Manager requesting data for their own GP practice.
+\item
+  Have completed appropriate Information Governance training as detailed on the form, or alternatively have provided their registration number with a professional regulatory body (NMC/GMC/GDC/HCPC) when employed by the NHS.
+\end{itemize}
+
+\textbf{Section 3 -- Local data controller representative}
+
+This section should be completed if applying for access to Local data (most common option within LIST). The Local Data Controller Representative is the person/s with the \textbf{authority to approve the Applicant} in terms of their professional status, integrity of their application for the data requested and the validity of the purposes stated on the form. This would be completed by:
+
+\begin{itemize}
+\item
+  For NHS Boards requesting data on their own treated/residing patients -- the Caldicott Guardian, Medical Director, Clinical Director or Independent Contractor Principal must sign the DRL in this section
+\item
+  For HSCPs requesting data on their own population, BOTH the Caldicott Guardian for the Board and the Senior Responsible Officer for the partnership must sign the DRL in this section
+\item
+  For release of SOURCE data, BOTH the Caldicott Guardian for the Board and the Senior Responsible Officer for the partnership must sign the DRL in this section. This is because the HSCP and the Board are both data controllers of the SOURCE dataset, so permission needs to be given by both parties to access to the data
+\item
+  For release of data originating from Secondary Care to GPs regarding their own registered patients BOTH the Caldicott Guardian for the Board and a principal within the practice must sign the DRL in this section
+\item
+  See Section 3 of the form for further information on different scenarios
+\end{itemize}
+
+\textbf{Section 4 -- Data custodian}
+
+This section should be completed if applying for access to National data, however in LIST it is unlikely that we would applying for this, so you can leave this section blank or enter N/A and complete Section 3 instead.
+
+\textbf{Section 5 -- Research}
+
+You should indicate here whether the request is for a research study or not. LIST projects should answer \textbf{No} here.
+
+\textbf{Section 6 -- Nature and use of data requested, including a list of variables required}
+
+In this section you should detail the exact nature of the data requested and what you plan to do with it.
+
+\begin{itemize}
+\item
+  6a -- detail the background, aim and method. For method, clearly state the work that LIST will be doing, which dataset(s) will be used and the output that will be provided to the customer
+\item
+  6b -- if the customer plans to publish the data, or if they could publish the data then state this here. Mention the PHS SDC protocol being followed / sharing the output as management information as appropriate
+\item
+  6c -- Provide the full list of variables from each dataset required, the time period and applicable geography. It is important for this to be comprehensive, but also considering the need for data minimisation only include the minimum number of variables necessary (or you think might be necessary when it's for data linkage) for the scope of the project. If it is easier to do so, you can provide the list of variables in an attachment alongside the form
+\end{itemize}
+
+\textbf{Section 7 -- Team or service involved in accessing the data}
+
+In this section you should list:
+
+\begin{itemize}
+\item
+  The LIST team involved in the piece of work (e.g.~LIST Grampian)
+\item
+  All additional teams who will have access to the output e.g.~HSCP contacts, staff from GP practice(s) etc
+\end{itemize}
+
+\textbf{Section 8 - List of data marts/datasets/databases to be accessed and their corresponding designated information asset owner}
+
+For LIST projects, the applicant will be a local customer and therefore the answer to question 8a will be \textbf{No}.
+
+\textbf{Section 9 - Measures in place to transfer, protect and use the data securely and confidentially}
+
+See the below examples for suggested text to use -- tweak as required for your own project and area.
+
+\emph{Data Linkage Example}
+
+\includegraphics[width=1\linewidth]{imgs/drl-linkage-1}
+
+\includegraphics[width=1\linewidth]{imgs/drl-linkage-2}
+
+\emph{Releasing Patient-Level Data Example}
+
+\includegraphics[width=1\linewidth]{imgs/drl-patientlevel-1}
+
+\includegraphics[width=1\linewidth]{imgs/drl-patientlevel-2}
+
+\includegraphics[width=1\linewidth]{imgs/drl-patientlevel-3}
+
+\textbf{Section 10 - Intended duration of use of data}
+
+In this section detail the expected end date for the work, how long the data will be kept for and how it will be destroyed.
+
+\begin{itemize}
+\item
+  For data linkage -- complete from a LIST perspective: how long will the pre-linked patient level datasets be kept
+\item
+  For releasing patient level data -- complete from a customer perspective: detail how long the customer will keep the data LIST provide
+\end{itemize}
+
+\hypertarget{data-for-hscps}{%
+\chapter{Data for HSCPs}\label{data-for-hscps}}
+
+\hypertarget{flowchart}{%
+\section{Flowchart}\label{flowchart}}
+
+In order to help you determine the right course of action when it comes to HSCP customers requesting data \textbf{from their own partnership}, we have created this flowchart.
+
+\includegraphics[width=1\linewidth]{imgs/hscp-flowchart}
+
+\hypertarget{local-data}{%
+\section{Local data}\label{local-data}}
+
+When handling data which is locally-held and owned, it is best practice to store that data on local servers rather than PHS servers, unless you have a prior agreement in place with the HSCP to hold the data on PHS servers.
+
+LIST can work with local NHS Board / Local Authority data in the following ways:
+
+\begin{itemize}
+\item
+  Accessing local data directly via local systems
+\item
+  Receiving local data from our local customers
+\item
+  Supporting new data collections
+\end{itemize}
+
+\textbf{LIST Staff must follow the below local IG procedures}
+
+\emph{Accessing local data directly via local systems}
+
+\begin{itemize}
+\item
+  Follow local IT processes re gaining access to data / systems / files \& folders
+\item
+  Follow local procedures re storing and sharing data -- liaise with local IG / Data Protection team as required
+\item
+  Follow local SDC protocols where appropriate for disseminating outputs
+\end{itemize}
+
+\emph{Receiving local data directly from Local Authorities}
+
+\begin{itemize}
+\item
+  Obtain written confirmation that local IG processes have been followed. This can be done using either the email text or template below.
+\item
+  Follow local SDC protocols where appropriate for disseminating outputs
+\end{itemize}
+
+\emph{Receiving local data directly from NHS Boards}
+
+\begin{itemize}
+\item
+  The intra-NHS Scotland Information Sharing Accord is an overall data sharing agreement for NHS Boards in Scotland
+\item
+  In addition to this, for NHS Boards to provide patient level data to PHS / LIST, a local data release form may need to be completed. Liaise with local Data Protection / IG team to find out what the local process is, as this process will vary by NHS Board.
+\item
+  Follow local SDC protocols where appropriate for disseminating output
+\end{itemize}
+
+\emph{Supporting new data collections}
+
+\begin{itemize}
+\item
+  LIST can support the design of local data collections. This can then be passed to the local organisation for them to collect the data
+\item
+  Follow local IG advice re the tools that can / cannot be used - liaise with local IG / Data Protection team as required
+\item
+  For this data to be shared with LIST, follow the advice above for receiving local data from local authorities / NHS Boards as appropriate
+\item
+  Follow local SDC protocols where appropriate for disseminating outputs
+\end{itemize}
+
+\textbf{If LIST are collecting the data on behalf of the local organisation, then please contact the LIST IG Group and/or the PHS Data Protection Team.}
+
+\hypertarget{local-ig-documentation}{%
+\section{Local IG Documentation}\label{local-ig-documentation}}
+
+\emph{LIST staff are not responsible for completing local IG documentation such as DPIAs or data sharing agreements.}
+
+\textbf{Obtaining Confirmation Local Authority IG processes have been followed}
+
+LIST require written confirmation that local authority IG processes have been followed to obtain and work with local authority data. The following standard text can be sent to local authority contacts for this purpose if there is no other document requested or agreement in place by the local authority:
+
+\begin{verbatim}
+_"Can you please confirm that the local <insert organisation> Information Governance processes have been followed to authorise the transfer of <insert topic> data from <insert organisation>to the Local Intelligence Support Team (LIST) within Public Health Scotland._
+
+_It is the responsibility of each organisation to ensure compliance with local IG procedures. If you are unsure what the local processes are, then please contact your local IG / Data Protection team as required for guidance._
+
+_Once LIST receive email confirmation that local IG processes has been adhered to, then this will be considered as the necessary IG approval for LIST to receive and work with the local data for the agreed work on <insert project title / details as required>.”_
+\end{verbatim}
+
+Alternatively, the following template can be used:
+
+\begin{verbatim}
+Project Name 
+
+Project Aim / Purpose 
+
+Summary of data to be shared and with whom 
+
+Customer / Project Lead 
+
+LIST main contact 
+
+What local IG form / process has been approved / who authorised the data sharing with LIST? 
+
+Date of agreement to share data 
+
+Duration of agreed data sharing / data retention period 
+
+Data Transfer Method
+
+Additional Information
+
+Once confirmation has been received, LIST staff should store this within project documentation. 
+\end{verbatim}
+
+\hypertarget{data-for-gps}{%
+\chapter{Data for GPs}\label{data-for-gps}}
+
+\hypertarget{e-mail-template}{%
+\section{E-Mail Template}\label{e-mail-template}}
+
+In order to facilitate a piece of work with a GP practice using practice-held data, you can use our Email Template to outline the nature of the piece of work and gain agreement directly from the Lead GP or Practice Quality Lead. The agreement gives full transparency regarding the data the GP practice will provide and how LIST will use that data, with the GP practice then authorising the piece of work.
+
+\begin{itemize}
+\item
+  This email agreement will only cover the piece of work covered in the email and you would need to complete a new template for every piece of work undertaken with a practice.
+\item
+  If the piece of work covers multiple practices, you can send a separate email template to each practice to complete individually.
+\item
+  \textbf{Remember - if the project requires the linkage of PHS-held data to practice-held data, then you would require a DRL form to be signed off. Where a DRL is not required, you could use this Email Template instead.}
+\end{itemize}
+
+You can find our \href{https://scottish.sharepoint.com/:w:/r/sites/PHS-LIST/_layouts/15/Doc.aspx?sourcedoc=\%7BA10F07C3-CFFC-4A82-9CD7-A2D6DBA1D6DB\%7D\&file=LIST\%20IG\%20-\%20GP\%20practice\%20data\%20sharing\%20email\%20template.docx\&action=default\&mobileredirect=true}{Email Template here}.
+
+Here's an example of a template which has been filled out.
+
+\includegraphics[width=1\linewidth]{imgs/gp-emailtemplate-example}
+
+\hypertarget{working-in-gp-practices}{%
+\section{Working in GP Practices}\label{working-in-gp-practices}}
+
+On the occasion where a LIST staff member is asked to work within a GP practice, here are some advice and considerations:
+
+\begin{itemize}
+\item
+  Contact LIST IG Group to discuss in the first instance.
+\item
+  A LIST Service Manager needs to agree to the LIST member of staff working in a GP Practice, they need to be aware of the proposed service and understand the heightened risks.
+\item
+  PHS staff must have completed the mandatory IG training \& the MRC course within the last 2 years as detailed in the Data Protection Handbook
+\item
+  The practice provides agreement that they want LIST staff to work in their practice
+\item
+  The practice will normally ask the person to sign some kind of confidentiality statement if you are accessing their systems directly
+\item
+  PHS staff must follow all relevant local policies when entering the practice
+\item
+  PHS staff must be fully aware of the higher risks when accessing GP systems directly and the rules around accessing patient data. Any misuse of this access could be a breach of contract and a breach of Data Protection law.
+\item
+  Staff must ensure that they are handling the data appropriately including any secure transfers.
+\end{itemize}
+
+\hypertarget{sharing-data}{%
+\chapter{Sharing Data}\label{sharing-data}}
+
+\hypertarget{producing-outputs}{%
+\section{Producing Outputs}\label{producing-outputs}}
+
+The best practice is to produce \textbf{aggregate outputs} rather than patient-identifiable outputs. This will of course be driven by your customer's requirements.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Please always adhere to \textbf{\protect\hyperlink{sdc}{Statistical Disclosure Control}} and conduct a Risk Assessment of the data you are releasing.
+\item
+  You must always comply with \href{https://gss.civilservice.gov.uk/wp-content/uploads/2018/03/Code-of-Practice-for-Statistics-4.pdf}{National Statistics Code of Practice}.
+\item
+  If you are releasing data to your customer which is not nationally published or available, \textbf{please indicate in your covering email that this is for management information only} (i.e.~it is not be shared or published by the customer). Learn more about Management Information \protect\hyperlink{managementinformation}{here}
+\item
+  If you are unsure about what you can and cannot release / publish, please seek advice from your line manager and/or other experienced analysts, or contact the Statistical Governance Team (\href{mailto:phs.statsgov@phs.scot}{\nolinkurl{phs.statsgov@phs.scot}}).
+\end{enumerate}
+
+\hypertarget{sdc}{%
+\section{Statistical Disclosure Control}\label{sdc}}
+
+Statistical disclosure control is a set of methods we apply, usually restricting or reducing the detail of data being released, in order to reduce the risk of personal identifiable information about data subjects. This is important to consider in our work within LIST, especially in the instance that some of our outputs may end up in the public domain.
+
+In the instance where you are releasing aggregated information about individuals, you should consider applying SDC in the instance where:
+
+\begin{itemize}
+\item
+  The output is to be released into the public domain
+\item
+  The output is not intended for the public domain, but risks around small numbers and/or data that is not yet published can be mitigated
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{If these risks cannot be mitigated then a DRL form may be required, or the output can be released as Management Information Only if there isn't a significant disclosure risk}
+  \end{itemize}
+\end{itemize}
+
+The SDC Flowchart and risk assessment form available on The Spark is helpful to determine what courses of action you might take if you intend to apply SDC to your output.
+
+\includegraphics[width=1\linewidth]{imgs/sdc-flowchart}
+
+The full \href{https://spark.publichealthscotland.org/corporate-guidance/statistical-governance/statistical-disclosure-control/overview-of-disclosure-control-protocol/}{SDC Protocol document} also contains some helpful of examples of how you might redesign your output to remove small numbers.
+
+\hypertarget{managementinformation}{%
+\section{Management Information}\label{managementinformation}}
+
+Sometimes we might be providing our customers with data which is not suitable for publication, such as aggregated data with small numbers which can't be aggregated further due to the customers' requirements for the data. In such cases as these we would provide the output as Management Information Only. By marking the output as MI only we are reducing the risk of disclosure by the onward distribution of, or inadvertent release into the public domain of, the data provided.
+
+The MI text has been updated in the latest version of the Statistical Disclosure Protocol, available on The Spark, which you can see below.
+
+\begin{itemize}
+\tightlist
+\item
+  In addition to this, we recommend including a Management Information Only statement in the email in which you send the output to your customer. We also recommend reiterating verbally in any meetings with customers that the output is for Management Information purposes only.
+\end{itemize}
+
+Label each table/chart as ``Management Information only, not for onward distribution'', or at the top of the output as a title.
+
+The standard text below should be added as a footnote to each table/chart:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{This information has been released for management information purposes only. The data have not been adjusted to protect against potential disclosure risks and may contain information which enables (perhaps with the aid of further knowledge of the topic) an individual patient or member of staff to be identified. Please ensure circulation is restricted and that patient confidentiality is not compromised. Please contact \href{mailto:phs.statsgov@phs.scot}{\nolinkurl{phs.statsgov@phs.scot}} if you have any queries around this or if there is any breach of the terms of the restricted management information.}
+\end{itemize}
+
+\emph{You should highlight all Management Information text in red to draw attention to the statement.}
+
+When releasing unpublished data you might use a slightly different statement, such as the one below which is used in the MSG reports:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Data Release Note: These reports are released for management purposes only and contain previously unpublished data. Please treat the material and any indication of the results as restricted until general release.}
+\item
+  \textbf{Please note that some data in the tables below may be affected by data completeness issues, particularly in recent months. See the Completeness tab for further information.}
+\end{itemize}
+
+You can find information about MI within the Statistical disclosure control protocol document on \href{https://spark.publichealthscotland.org/downloads/statistical-disclosure-control-protocol/}{The Spark}.
+
+\textbf{What do I do if I release data as Management Information to a local partner, but then they publish it?}
+
+LIST have responsibility to ensure that when we release management information to a HSCP that it is clearly labelled with the management information text on the output itself and also the email used to disseminate the output. See the PHS Statistical Disclosure Protocol for more details on this guidance.
+
+HSCPs have a responsibility to treat this information appropriately and follow the PHS guidance on the use of management information. If this information is published then the onus is on the HSCP to ensure they follow local protocols re how they should treat this, and they should also inform LIST this has happened.
+
+There may be local reasons why a decision to publish was made, but it may also be that a mistake has occurred. If staff are ever concerned they should raise this with their line manager in the first instance.
+
+\hypertarget{sending-data-securely}{%
+\section{Sending Data Securely}\label{sending-data-securely}}
+
+Outside of PHS staff, the only individuals we can send confidential data to are those with either:
+
+\begin{itemize}
+\item
+  NHS Scotland e-mail addresses (nhs.scot, nhs.scot.uk), or
+\item
+  Local authority e-mail addresses (councilname.gov.uk)
+\end{itemize}
+
+\emph{\textbf{LIST should not be sending confidential data to any other e-mail domains, e.g.~university, third sector etc.}}
+
+On the occasion where our customer has a university e-mail address in addition to one of our trusted, secure e-mail addresses (such as an NHS Scotland e-mail address), we must ensure we send data to their secure e-mail and not their university e-mail address.
+
+\hypertarget{sending-by-secure-file-transfer}{%
+\subsection{Sending by Secure File Transfer}\label{sending-by-secure-file-transfer}}
+
+The best, most secure way to send confidential data to our customers is via secure file transfer, using either:
+
+\begin{itemize}
+\item
+  Globalscape, or
+\item
+  SWAN
+\end{itemize}
+
+These are trusted tools which enable safe and secure transfer of data, as well as enabling data transfer of files which are too large for e-mail attachments. You can apply for access to an account and find out more details on Service Now.
+
+\hypertarget{sending-by-e-mail-transfer}{%
+\subsection{Sending by E-mail Transfer}\label{sending-by-e-mail-transfer}}
+
+There may be instances where it is more appropriate to send confidential data via e-mail, which is an acceptable way to transfer confidential data provided you follow these steps to ensure the transfer of this data is as safe and secure as possible:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Do not attach the data to the e-mail until you have completed all these steps to ensure that you do not accidentally send the data in an unsafe manner.
+\item
+  Ensure that you have the correct e-mail address, as there may be more than one person in the organisation with the same name. Ensure that you are not using group/circulation lists and that you are only e-mailing the named individuals on the DRL form who are entitled to access the data - the recipients should be referenced in section 7 of the DRLF, although the individuals may not be named so you should check with the applicant of the DRLF.
+
+  If in doubt, send a test e-mail to the customer beforehand to ensure it is the correct recipient for the data, and only send the data onwards once you've received that confirmation.
+
+  We also recommend you avoid the use of bcc.
+\item
+  Draft the e-mail to the customer, ensuring to include the following standard texts within the e-mail:
+
+  Management Information Text must be included in the email, as well as on the attached file containing the patient level data. Read more about Management Information text \protect\hyperlink{managementinformation}{here}
+
+  You should also include this text to instruct the customer to delete the email:
+
+  \textbf{Please ensure that as soon as you have downloaded this attachment and saved it in a secure area, that you delete this e-mail from your inbox and your `deleted items' folder to reduce the risk of data duplication.}
+
+  This is because when we send data as an attachment within an e-mail, it is copied over and over again and multiple versions of the data are saved within various individuals' outlook storage, as well as copies stored on secure areas. We recommend you discuss this with your customer beforehand and ensure that they understand the need to not retain data within their e-mail inbox for longer than necessary.
+
+  We also recommend that LIST analysts also delete these e-mails from their own Outlook as soon as they are no longer required.
+\item
+  Implement at least one of the following options:
+
+  \begin{itemize}
+  \item
+    Add the text `{[}secure{]}' to the start of the subject line of the e-mail, or
+  \item
+    Encrypt the e-mail, which is available within the Options menu of the Outlook message window
+  \end{itemize}
+
+  This adds a layer of encryption to the e-mail and an added layer of security to the data. We would recommend using the {[}secure{]} function, however, as we found that when we tested the Encryption method it can lead to an error message for council e-mail addresses. This is intended to be addressed in future updates to Outlook.
+\end{enumerate}
+
+\emph{\textbf{What about password protection?}}
+
+Many in LIST opt to apply password protection to the data file, and sending the password within a separate e-mail, either within the e-mail text or as an attached `read me' file. This is acceptable to do, however you should consider that if the individuals e-mail account is hacked it is only too easy for the hacker to obtain the password if it's merely held in a secondary e-mail. Overall, double checking who you are sending the e-mail to and applying encryption to the e-mail, as well as encouraging our customers to delete the e-mails once they've obtained the data attachments, are more effective at reducing overall risk of sending confidential data via e-mail.
+
+\emph{\textbf{Should I send the data in two parts, with an anonymous link for the CHI number?}}
+
+This is an option you may consider; however, it relies on the customer being able to successfully merge the documents properly, therefore it's not something we would generally recommend. If you have followed the recommended steps to send the data securely this should not be necessary.
+
+\emph{\textbf{What other options do I have when sending confidential data via secure e-mail?}}
+
+In addition to the recommend steps as detailed above, there are a few other options available within Outlook which you may not be aware of:
+
+\begin{itemize}
+\item
+  You can restrict the e-mail to prevent recipients from forwarding the e-mail onwards.
+\item
+  Add a delay to the e-mail to schedule it to send at a later time.
+\end{itemize}
+
+Both options are available in the options menu within Outlook.
+
+\emph{\textbf{What about when sending non-confidential data?}}
+
+If the data is not confidential, then it is appropriate to send as an e-mail attachment without the above additional security steps, unless the file size is too large to send via e-mail, in which case you should consider using Globalscape/SWAN to enable file transfer.
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}
